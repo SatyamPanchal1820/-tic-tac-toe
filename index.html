@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<footer>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="game-board">
+        <div class="row">
+            <div class="cell" id="cell_0_0"></div>
+            <div class="cell" id="cell_0_1"></div>
+            <div class="cell" id="cell_0_2"></div>
+        </div>
+        <div class="row">
+            <div class="cell" id="cell_1_0"></div>
+            <div class="cell" id="cell_1_1" ></div>
+            <div class="cell" id="cell_1_2"></div>
+        </div>
+        <div class="row">
+            <div class="cell" id="cell_2_0"></div>
+            <div class="cell" id="cell_2_1"></div>
+            <div class="cell" id="cell_2_2" ></div>
+        </div>
+    </div>
+    <footer>
+        <h1 id="heading">X</h1>
+    </footer>
+    <footer>
+
+        <table>
+            <tr>
+                <th class="th_list">Player1</th>
+                <th class="th_list" style="padding-right:10px;padding-left:10px">Draws</th>
+                <th class="th_list">Player2</th>
+            </tr>
+            <tr>
+                <td class="td_list" id="player1_score">0</td>
+                <td class="td_list" style="padding-right:10px;padding-left:10px" id="tie_score">0</td>
+                <td class="td_list" id="player2_score">0</td>
+            </tr>
+        </table>
+        <button id="restartBtn">Restart</button>
+    </footer>
+
+<script src="script.js"></script>
+    </body>
+
+</html>
+
+
